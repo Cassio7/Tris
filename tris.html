@@ -1,0 +1,69 @@
+<html>
+    <head>
+        <title>TRIS</title>
+
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="Tris.css">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+        <script src="Tris.js"></script>
+        <script type="text/javascript" src="tris.js"></script>
+        <link rel="icon" href="https://playtictactoe.org/favicon.ico" >
+    </head>
+    <body>
+
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-4">
+
+                <h1 id="Titolo">TRIS</h1>
+
+                <table class="table">
+                    <tr>
+                        <td>
+                            <input type="button" id="casella1" onclick="clickCasella('casella1')">
+                        </td>
+                        <td>
+                            <input type="button" id="casella2" onclick="clickCasella('casella2')">
+                        </td>
+                        <td>
+                            <input type="button" id="casella3" onclick="clickCasella('casella3')">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="button" id="casella4" onclick="clickCasella('casella4')">
+                        </td>
+                        <td>
+                            <input type="button" id="casella5" onclick="clickCasella('casella5')">
+                        </td>
+                        <td>
+                            <input type="button" id="casella6" onclick="clickCasella('casella6')">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="button" id="casella7" onclick="clickCasella('casella7')">
+                        </td>
+                        <td>
+                            <input type="button" id="casella8" onclick="clickCasella('casella8')">
+                        </td>
+                        <td>
+                            <input type="button" id="casella9" onclick="clickCasella('casella9')">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td>
+                           <input type="button" class="btn-block" value="Ripristina" id="btnRipristina" onclick="btnRipristinaClick()">
+                        </td>
+                        <td></td>
+                    </tr>
+                </table>
+                <h1 id="Esito"></h1>
+            </div>
+        </div>
+    </body>
+</html>
+<!-- | (• ◡•)|Cassio(❍ᴥ❍ʋ) -->

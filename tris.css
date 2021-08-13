@@ -1,0 +1,59 @@
+body{
+    background-image: url(tavolo.jpg);
+    background-size: 1920px 1080px;
+}
+
+#casella1{
+    width:150px; 
+    height:150px;
+}
+#casella2{
+    width:150px; 
+    height:150px;
+}
+#casella3{
+    width:150px; 
+    height:150px;
+}
+#casella4{
+    width:150px; 
+    height:150px;
+}
+#casella5{
+    width:150px; 
+    height:150px;
+}
+#casella6{
+    width:150px; 
+    height:150px;
+}
+#casella7{
+    width:150px; 
+    height:150px;
+}
+#casella8{
+    width:150px; 
+    height:150px;
+}
+#casella9{
+    width:150px; 
+    height:150px;
+}
+
+#Titolo{
+    text-align: center;
+    font-size: 80px
+}
+
+#Esito{
+    text-align: center;
+    font-size: 60px;
+}
+
+#btnRipristina{ 
+    color: black;
+}
+
+td{
+    text-align: center;
+}
